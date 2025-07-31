@@ -4,6 +4,8 @@ Common issues and solutions for Cirrus Sync.
 
 ## Installation Issues
 
+This section describes the most common installation problems you might encounter.
+
 ### Windows Installation Problems
 
 **Problem:** Installation fails with "Access Denied" error
