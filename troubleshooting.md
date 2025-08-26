@@ -176,7 +176,7 @@ chmod +x CirrusSync.AppImage
 
 ### Connection Problems
 
-**Problem:** Cannot connect to CloudSync Pro servers
+**Problem:** Cannot connect to Cirrus Sync servers
 **Diagnostic Commands:**
 ```bash
 # Test connectivity
@@ -192,7 +192,7 @@ telnet api.cloudsync-pro.com 80
 **Solutions:**
 1. Check firewall settings
 2. Configure proxy if required
-3. Add CloudSync Pro to antivirus exclusions
+3. Add Cirrus Sync to antivirus exclusions
 4. Verify DNS settings
 5. Contact network administrator
 
@@ -257,7 +257,7 @@ Allow outbound to provider domains:
 
 ### High Memory Usage
 
-**Problem:** CloudSync Pro using excessive RAM
+**Problem:** Cirrus Sync using excessive RAM
 **Solutions:**
 1. Restart application
 2. Clear local cache
@@ -358,7 +358,7 @@ Allow outbound to provider domains:
 ### When Contacting Support
 
 **Include This Information:**
-- CloudSync Pro version
+- Cirrus Sync version
 - Operating system and version
 - Description of issue and steps to reproduce
 - Error messages or codes

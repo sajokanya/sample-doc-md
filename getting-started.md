@@ -79,7 +79,7 @@ To connect a provider:
 1. Go to Settings > Cloud Providers
 2. Click "Add Provider"
 3. Select your cloud storage service
-4. Authorize CloudSync Pro to access your account
+4. Authorize Cirrus Sync to access your account
 5. Choose sync folders and preferences
 
 ### Setting Up Your First Sync

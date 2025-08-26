@@ -1,24 +1,24 @@
 # FAQ
 
-Frequently asked questions about CloudSync Pro.
+Frequently asked questions about Cirrus Sync.
 
 ## General Questions
 
-### What is CloudSync Pro?
+### What is Cirrus Sync?
 
-CloudSync Pro is a cross-platform file synchronization application that keeps your files in sync across multiple devices and cloud storage providers. It supports real-time synchronization, conflict resolution, and works with popular cloud services like Google Drive, Dropbox, OneDrive, and iCloud.
+Cirrus Sync is a cross-platform file synchronization application that keeps your files in sync across multiple devices and cloud storage providers. It supports real-time synchronization, conflict resolution, and works with popular cloud services like Google Drive, Dropbox, OneDrive, and iCloud.
 
-### How much does CloudSync Pro cost?
+### How much does Cirrus Sync cost?
 
-CloudSync Pro offers three pricing tiers:
+Cirrus Sync offers three pricing tiers:
 
 - **Free** - Up to 5 GB sync, 2 cloud providers, basic support
 - **Premium** - $9.99/month - Unlimited sync, all providers, priority support
 - **Enterprise** - $24.99/user/month - Advanced features, SSO, dedicated support
 
-### Is CloudSync Pro secure?
+### Is Cirrus Sync secure?
 
-Yes, CloudSync Pro implements multiple security layers:
+Yes, Cirrus Sync implements multiple security layers:
 
 - TLS 1.3 encryption for data in transit
 - AES-256 encryption for local cache
@@ -28,7 +28,7 @@ Yes, CloudSync Pro implements multiple security layers:
 
 ### Which cloud providers are supported?
 
-CloudSync Pro supports:
+Cirrus Sync supports:
 - Google Drive (including Google Workspace)
 - Dropbox (Personal and Business)
 - Microsoft OneDrive (Personal and Business)
@@ -53,14 +53,14 @@ CloudSync Pro supports:
 - SSD storage
 - Stable broadband connection
 
-### Can I use CloudSync Pro on multiple devices?
+### Can I use Cirrus Sync on multiple devices?
 
-Yes, your CloudSync Pro account can be used on up to 10 devices with a Premium subscription. Free accounts are limited to 3 devices. Each device maintains its own sync configurations while sharing the same account credentials.
+Yes, your Cirrus Sync account can be used on up to 10 devices with a Premium subscription. Free accounts are limited to 3 devices. Each device maintains its own sync configurations while sharing the same account credentials.
 
 ### How do I transfer my settings to a new computer?
 
 1. Export settings from the old computer: Settings > Advanced > Export Configuration
-2. Install CloudSync Pro on the new computer
+2. Install Cirrus Sync on the new computer
 3. Import settings: Settings > Advanced > Import Configuration
 4. Re-authenticate cloud providers if needed
 
@@ -68,11 +68,11 @@ Yes, your CloudSync Pro account can be used on up to 10 devices with a Premium s
 
 ### How does real-time sync work?
 
-Real-time sync monitors your local folders for changes using file system events. When a file is modified, created, or deleted, CloudSync Pro immediately starts the synchronization process. This typically takes 1-5 seconds depending on file size and network speed.
+Real-time sync monitors your local folders for changes using file system events. When a file is modified, created, or deleted, Cirrus Sync immediately starts the synchronization process. This typically takes 1-5 seconds depending on file size and network speed.
 
 ### What happens if I modify the same file on two devices?
 
-CloudSync Pro detects conflicts and offers several resolution options:
+Cirrus Sync detects conflicts and offers several resolution options:
 
 1. **Manual resolution** - Review and choose which version to keep
 2. **Automatic rules** - Newest file wins, largest file wins, etc.
@@ -80,7 +80,7 @@ CloudSync Pro detects conflicts and offers several resolution options:
 
 ### Can I sync files larger than 100 MB?
 
-Yes, CloudSync Pro supports files up to 50 GB in size. Large files are transferred using chunked uploads for reliability. The actual size limit may depend on your cloud provider's restrictions.
+Yes, Cirrus Sync supports files up to 50 GB in size. Large files are transferred using chunked uploads for reliability. The actual size limit may depend on your cloud provider's restrictions.
 
 ### Why are some files not syncing?
 
@@ -109,7 +109,7 @@ Configure sync filters in each sync folder's settings:
 
 ## Performance and Storage
 
-### How much bandwidth does CloudSync Pro use?
+### How much bandwidth does Cirrus Sync use?
 
 Bandwidth usage depends on:
 - Number and size of files being synced
@@ -119,16 +119,16 @@ Bandwidth usage depends on:
 
 You can limit bandwidth usage in Settings > Network > Bandwidth Controls.
 
-### Does CloudSync Pro work offline?
+### Does Cirrus Sync work offline?
 
-CloudSync Pro requires an internet connection for synchronization. However, it offers offline features:
+Cirrus Sync requires an internet connection for synchronization. However, it offers offline features:
 
 - **Offline access** - Mark files for offline availability
 - **Local cache** - Recently accessed files remain available
 - **Queue operations** - Changes are queued and sync when online
 - **Conflict detection** - Handles changes made while offline
 
-### How much local storage does CloudSync Pro use?
+### How much local storage does Cirrus Sync use?
 
 Storage usage includes:
 - **Application files** - ~200 MB
@@ -140,7 +140,7 @@ Use Smart Sync to reduce local storage by keeping files in the cloud only.
 
 ## Troubleshooting
 
-### CloudSync Pro won't start after installation
+### Cirrus Sync won't start after installation
 
 Try these solutions:
 
@@ -181,19 +181,19 @@ Smart Sync automatically manages local storage by:
 - Downloading files on-demand when accessed
 - Freeing up disk space automatically
 
-### Can I use CloudSync Pro for backup?
+### Can I use Cirrus Sync for backup?
 
-While CloudSync Pro is primarily a sync tool, it can serve as a backup solution:
+While Cirrus Sync is primarily a sync tool, it can serve as a backup solution:
 - **Version history** - Keeps multiple file versions
 - **One-way sync** - Upload-only mode for backup
 - **Scheduled sync** - Automatic backup at set times
 - **Multiple destinations** - Backup to multiple cloud providers
 
-For critical data, consider dedicated backup solutions alongside CloudSync Pro.
+For critical data, consider dedicated backup solutions alongside Cirrus Sync.
 
-### Does CloudSync Pro support team collaboration?
+### Does Cirrus Sync support team collaboration?
 
-Yes, CloudSync Pro offers collaboration features:
+Yes, Cirrus Sync offers collaboration features:
 - **Shared folders** - Team access to common files
 - **Permission management** - Control who can edit/view
 - **Activity tracking** - See who changed what
@@ -207,13 +207,13 @@ Yes, CloudSync Pro offers collaboration features:
 Your data is stored in:
 1. **Your chosen cloud providers** - According to their data policies
 2. **Local devices** - Encrypted cache and sync folders
-3. **CloudSync Pro servers** - Only metadata and sync states (encrypted)
+3. **Cirrus Sync servers** - Only metadata and sync states (encrypted)
 
-CloudSync Pro never stores your actual file content on our servers.
+Cirrus Sync never stores your actual file content on our servers.
 
-### Can CloudSync Pro employees access my files?
+### Can Cirrus Sync employees access my files?
 
-No, CloudSync Pro employees cannot access your files because:
+No, Cirrus Sync employees cannot access your files because:
 - Files are stored on your chosen cloud providers
 - Local encryption protects cached data
 - Only encrypted metadata passes through our servers
@@ -232,7 +232,7 @@ If you cancel your subscription:
 
 ### How do I upgrade or downgrade my plan?
 
-1. Log in to your CloudSync Pro account
+1. Log in to your Cirrus Sync account
 2. Go to Settings > Subscription
 3. Choose new plan and confirm
 4. Billing changes take effect immediately
@@ -240,7 +240,7 @@ If you cancel your subscription:
 
 ### Can I get a refund?
 
-CloudSync Pro offers a 30-day money-back guarantee for new subscribers. Contact support with your account details to request a refund within 30 days of initial purchase.
+Cirrus Sync offers a 30-day money-back guarantee for new subscribers. Contact support with your account details to request a refund within 30 days of initial purchase.
 
 ### How do I delete my account?
 
@@ -275,7 +275,7 @@ Support options based on your plan:
 ### What information should I include in support requests?
 
 For faster resolution, include:
-- CloudSync Pro version number
+- Cirrus Sync version number
 - Operating system and version
 - Detailed description of the issue
 - Steps to reproduce the problem

@@ -1,6 +1,6 @@
 # Changelog
 
-Version history and release notes for CloudSync Pro.
+Version history and release notes for Cirrus Sync.
 
 ## Version 3.2.1 (January 15, 2025)
 
@@ -25,7 +25,7 @@ Version history and release notes for CloudSync Pro.
 
 ## Version 3.2.0 (December 8, 2024)
 
-### New Features
+### New features
 - **Smart Sync 2.0** - Intelligent local storage management
 - **Bulk Operations** - Select and sync multiple folders at once
 - **Advanced Filters** - Regex support in include/exclude patterns
@@ -39,51 +39,51 @@ Version history and release notes for CloudSync Pro.
 - Improved backup and restore functionality
 - Added dark mode support for all platforms
 
-### Cloud Provider Updates
-- Google Drive: Added support for shared drives (Team Drives)
-- Dropbox: Implemented Dropbox Business advanced features
-- OneDrive: Added SharePoint Online integration
-- iCloud: Improved reliability and sync speed
-- Amazon S3: Added support for S3 Intelligent Tiering
+### Cloud provider updates
+- Google Drive: Added support for shared team drives.
+- Dropbox: Implemented Dropbox Business advanced features.
+- OneDrive: Added SharePoint Online integration.
+- iCloud: Improved reliability and sync speed.
+- Amazon S3: Added support for S3 Intelligent Tiering.
 
 ### Performance
-- 40% faster initial sync for large folder structures
-- Reduced memory usage by 25% during active sync operations
-- Improved startup time by optimizing database queries
-- Enhanced network efficiency with better compression algorithms
+- 40% faster initial sync for large folder structures.
+- Reduced memory usage by 25% during active sync operations.
+- Improved startup time by optimizing database queries.
+- Enhanced network efficiency with better compression algorithms.
 
 ---
 
 ## Version 3.1.3 (November 2, 2024)
 
 ### Bug Fixes
-- Fixed issue where paused syncs would resume unexpectedly
-- Resolved database corruption on unexpected application shutdown
-- Fixed proxy authentication with special characters in passwords
-- Corrected file permission preservation on Linux systems
-- Fixed notification display on Windows 11
+- Fixed issue where paused syncs would resume unexpectedly.
+- Resolved database corruption on unexpected application shutdown.
+- Fixed proxy authentication with special characters in passwords.
+- Corrected file permission preservation on Linux systems.
+- Fixed notification display on Windows 11.
 
 ### Cloud Provider Fixes
-- OneDrive: Fixed sync issues with files in recycle bin
-- Google Drive: Resolved shared folder permission problems
-- Dropbox: Fixed handling of case-sensitive file names
-- iCloud: Improved reliability for macOS Monterey and later
+- OneDrive: Fixed sync issues with files in recycle bin.
+- Google Drive: Resolved shared folder permission problems.
+- Dropbox: Fixed handling of case-sensitive file names.
+- iCloud: Improved reliability for macOS Monterey and later.
 
 ---
 
 ## Version 3.1.2 (October 15, 2024)
 
 ### Security Updates
-- Patched potential security vulnerability in file transfer protocol
-- Updated encryption libraries to latest versions
-- Enhanced input validation for configuration files
-- Improved secure deletion of temporary files
+- Patched potential security vulnerability in file transfer protocol.
+- Updated encryption libraries to latest versions.
+- Enhanced input validation for configuration files.
+- Improved secure deletion of temporary files.
 
 ### Bug Fixes
-- Fixed crash when importing large configuration files
-- Resolved issue with special characters in folder paths
-- Fixed bandwidth throttling not working correctly
-- Corrected timezone handling in file timestamps
+- Fixed crash when importing large configuration files.
+- Resolved issue with special characters in folder paths.
+- Fixed bandwidth throttling not working correctly.
+- Corrected timezone handling in file timestamps.
 
 ---
 
@@ -236,7 +236,7 @@ Version history and release notes for CloudSync Pro.
 
 ---
 
-## Support Information
+## Support information
 
 For questions about specific versions or upgrade procedures:
 
@@ -245,10 +245,10 @@ For questions about specific versions or upgrade procedures:
 - **Community Forum**: [community.cloudsync-pro.com](https://community.cloudsync-pro.com)
 - **Email Support**: support@cloudsync-pro.com
 
-### Version Support Policy
+### Version support policy
 
 - **Current Version (3.2.x)**: Full support with regular updates
 - **Previous Major (3.1.x)**: Security updates only
 - **Legacy Versions (3.0.x and earlier)**: No longer supported
 
-We recommend keeping CloudSync Pro updated to the latest version for optimal performance, security, and access to new features.
+Keep Cirrus Sync updated to the latest version for optimal performance, security, and access to new features.
