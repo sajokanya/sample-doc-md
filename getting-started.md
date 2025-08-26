@@ -1,9 +1,9 @@
-# Getting Started
+# Getting started
 
 This guide will help you install and set up Cirrus Sync on 3. Authorize Cirrus Sync to access your account
 4. Choose sync folders and preferencesur device.
 
-## System Requirements
+## System requirements
 
 ### Windows
 - Windows 10 or later (64-bit)
@@ -25,21 +25,21 @@ This guide will help you install and set up Cirrus Sync on 3. Authorize Cirrus S
 
 ## Installation
 
-### Windows Installation
+### Windows installation
 
 1. Download the installer from the official website
 2. Run `CirrusSync-Setup.exe` as administrator
 3. Follow the installation wizard
 4. Launch Cirrus Sync from the Start menu
 
-### macOS Installation
+### macOS installation
 
 1. Download the `.dmg` file from the official website
 2. Double-click the downloaded file
 3. Drag Cirrus Sync to the Applications folder
 4. Launch from Applications or Spotlight
 
-### Linux Installation
+### Linux installation
 
 #### Ubuntu/Debian
 ```bash
@@ -54,9 +54,9 @@ wget https://releases.cirrus-sync.com/linux/cirrus-sync.rpm
 sudo rpm -i cirrus-sync.rpm
 ```
 
-## Initial Setup
+## Initial setup
 
-### Creating Your Account
+### Creating your account
 
 1. Launch Cirrus Sync
 2. Click "Create Account" on the welcome screen
@@ -64,7 +64,7 @@ sudo rpm -i cirrus-sync.rpm
 4. Verify your email address
 5. Complete your profile setup
 
-### Connecting Cloud Storage Providers
+### Connecting cloud storage providers
 
 Cirrus Sync supports multiple cloud storage providers:
 
@@ -82,7 +82,7 @@ To connect a provider:
 4. Authorize Cirrus Sync to access your account
 5. Choose sync folders and preferences
 
-### Setting Up Your First Sync
+### Setting up your first sync
 
 1. Click "New Sync" in the main interface
 2. Choose your local folder
@@ -93,13 +93,13 @@ To connect a provider:
    - **Download only** - Cloud changes download locally
 5. Click "Start Sync"
 
-## Next Steps
+## Next steps
 
 - Read the [User Guide](user-guide.md) for detailed features
 - Configure advanced settings in [Configuration](configuration.md)
 - Check out [FAQ](faq.md) for common questions
 
-## Troubleshooting Installation
+## Troubleshooting installation
 
 If you encounter issues during installation:
 

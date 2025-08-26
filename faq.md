@@ -2,7 +2,7 @@
 
 Frequently asked questions about Cirrus Sync.
 
-## General Questions
+## General questions
 
 ### What is Cirrus Sync?
 
@@ -38,7 +38,7 @@ Cirrus Sync supports:
 - pCloud
 - MEGA
 
-## Installation and Setup
+## Installation and setup
 
 ### What are the system requirements?
 
@@ -107,7 +107,7 @@ Configure sync filters in each sync folder's settings:
 3. Use include patterns to sync only specific file types
 4. Test filters with the preview option
 
-## Performance and Storage
+## Performance and storage
 
 ### How much bandwidth does Cirrus Sync use?
 
@@ -171,7 +171,7 @@ Resolve authentication issues:
 4. **Verify 2FA codes** - Use current time-based codes
 5. **Reset API permissions** - Revoke and re-grant provider access
 
-## Advanced Features
+## Advanced features
 
 ### What is Smart Sync?
 
@@ -200,7 +200,7 @@ Yes, Cirrus Sync offers collaboration features:
 - **Comment integration** - Leave notes on files
 - **Real-time collaboration** - Multiple users editing simultaneously
 
-## Security and Privacy
+## Security and privacy
 
 ### Where is my data stored?
 
@@ -228,7 +228,7 @@ If you cancel your subscription:
 - **Account data** is retained for 90 days for reactivation
 - **Free tier features** remain available
 
-## Billing and Account
+## Billing and account
 
 ### How do I upgrade or downgrade my plan?
 
@@ -250,7 +250,7 @@ To permanently delete your account:
 3. Contact support to request account deletion
 4. Account and associated data will be permanently removed within 30 days
 
-## Getting Support
+## Getting support
 
 ### How do I contact support?
 

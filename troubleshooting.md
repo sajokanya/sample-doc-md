@@ -2,11 +2,11 @@
 
 Common issues and solutions for Cirrus Sync.
 
-## Installation Issues
+## Installation issues
 
 This section describes the most common installation problems you might encounter.
 
-### Windows Installation Problems
+### Windows installation problems
 
 **Problem:** Installation fails with "Access Denied" error
 **Solution:**
@@ -22,7 +22,7 @@ This section describes the most common installation problems you might encounter
 3. Update Windows to latest version
 4. Run Windows System File Checker: `sfc /scannow`
 
-### macOS Installation Problems
+### macOS installation problems
 
 **Problem:** "Cirrus Sync is damaged and can't be opened"
 **Solution:**
@@ -42,7 +42,7 @@ This section describes the most common installation problems you might encounter
 2. Add Cirrus Sync to accessibility permissions
 3. Reset permissions: `sudo chmod -R 755 /Applications/Cirrus\ Sync.app`
 
-### Linux Installation Problems
+### Linux installation problems
 
 **Problem:** Missing dependencies
 **Solution:**
@@ -65,9 +65,9 @@ chmod +x CirrusSync.AppImage
 ./CirrusSync.AppImage
 ```
 
-## Sync Issues
+## Sync issues
 
-### Files Not Syncing
+### Files not syncing
 
 **Common Causes:**
 1. Network connectivity issues
@@ -90,7 +90,7 @@ chmod +x CirrusSync.AppImage
 4. Check sync filters: Sync Settings > Filters
 5. Resolve pending conflicts: Conflicts tab
 
-### Slow Sync Performance
+### Slow sync performance
 
 **Problem:** Sync taking too long
 **Solutions:**
@@ -106,7 +106,7 @@ chmod +x CirrusSync.AppImage
 - Exclude large media files from real-time sync
 - Enable smart sync for infrequently accessed files
 
-### Sync Conflicts
+### Sync conflicts
 
 **Problem:** Multiple conflict files created
 **Resolution Process:**
@@ -126,9 +126,9 @@ chmod +x CirrusSync.AppImage
 - Enable real-time sync for active projects
 - Use version control for code repositories
 
-## Authentication Issues
+## Authentication issues
 
-### Login Problems
+### Login problems
 
 **Problem:** Cannot log in to account
 **Solutions:**
@@ -145,7 +145,7 @@ chmod +x CirrusSync.AppImage
 3. Regenerate 2FA codes in account settings
 4. Contact support for account recovery
 
-### Provider Authentication
+### Provider authentication
 
 **Problem:** Cloud provider connection fails
 **Solutions:**
@@ -172,9 +172,9 @@ chmod +x CirrusSync.AppImage
 - Verify subscription includes OneDrive
 - Clear Microsoft Edge cache
 
-## Network and Connectivity
+## Network and connectivity
 
-### Connection Problems
+### Connection problems
 
 **Problem:** Cannot connect to Cirrus Sync servers
 **Diagnostic Commands:**
@@ -196,7 +196,7 @@ telnet api.cloudsync-pro.com 80
 4. Verify DNS settings
 5. Contact network administrator
 
-### Firewall Configuration
+### Firewall configuration
 
 **Required Outbound Ports:**
 - Port 443 (HTTPS) - Primary API communication
@@ -213,7 +213,7 @@ Allow outbound to provider domains:
 - *.icloud.com (iCloud)
 ```
 
-### Proxy Configuration
+### Proxy configuration
 
 **HTTP Proxy Setup:**
 1. Go to Settings > Network > Proxy
@@ -238,9 +238,9 @@ Allow outbound to provider domains:
 }
 ```
 
-## Performance Issues
+## Performance issues
 
-### High CPU Usage
+### High CPU usage
 
 **Causes:**
 - Large number of files being processed
@@ -255,7 +255,7 @@ Allow outbound to provider domains:
 4. Increase sync interval
 5. Close other resource-intensive applications
 
-### High Memory Usage
+### High memory usage
 
 **Problem:** Cirrus Sync using excessive RAM
 **Solutions:**
@@ -265,7 +265,7 @@ Allow outbound to provider domains:
 4. Update to latest version
 5. Check for memory leaks in logs
 
-### Disk Space Issues
+### Disk space issues
 
 **Problem:** Running out of disk space
 **Solutions:**
@@ -275,9 +275,9 @@ Allow outbound to provider domains:
 4. Move sync folders to larger drive
 5. Archive old files
 
-## Error Codes
+## Error codes
 
-### Common Error Codes
+### Common error codes
 
 **E001 - Authentication Failed**
 - Re-enter credentials
@@ -304,7 +304,7 @@ Allow outbound to provider domains:
 - Reduce sync frequency
 - Contact support for higher limits
 
-### Advanced Diagnostics
+### Advanced diagnostics
 
 **Enable Debug Logging:**
 1. Go to Settings > Advanced > Logging
@@ -320,9 +320,9 @@ Allow outbound to provider domains:
 - Antivirus software
 - Other sync applications installed
 
-## Getting Additional Help
+## Getting additional help
 
-### Log Collection
+### Log collection
 
 **Automatic Log Collection:**
 1. Menu > Help > Generate Support Package
@@ -347,7 +347,7 @@ Allow outbound to provider domains:
 ~/.local/share/cloudsyncpro/logs/
 ```
 
-### Support Channels
+### Support channels
 
 1. **Documentation** - Check this guide and FAQ
 2. **Community Forum** - Search existing topics
@@ -355,7 +355,7 @@ Allow outbound to provider domains:
 4. **Live Chat** - Real-time assistance (business hours)
 5. **Email Support** - support@cloudsync-pro.com
 
-### When Contacting Support
+### When contacting support
 
 **Include This Information:**
 - Cirrus Sync version

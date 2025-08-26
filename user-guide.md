@@ -1,8 +1,8 @@
-# User Guide
+# User guide
 
 Complete guide to using Cirrus Sync effectively.
 
-## Dashboard Overview
+## Dashboard overview
 
 The Cirrus Sync dashboard provides a centralized view of all your sync operations:
 
@@ -11,9 +11,9 @@ The Cirrus Sync dashboard provides a centralized view of all your sync operation
 - **Storage Usage** - Cloud storage consumption across providers
 - **Sync Status** - Health and performance metrics
 
-## Managing Sync Folders
+## Managing sync folders
 
-### Adding a New Sync
+### Adding a new sync
 
 1. Click the "+" button in the main toolbar
 2. Select "New Sync Folder"
@@ -22,7 +22,7 @@ The Cirrus Sync dashboard provides a centralized view of all your sync operation
 5. Configure sync preferences
 6. Click "Create Sync"
 
-### Sync Types
+### Sync types
 
 **Real-time Sync**
 - Instantly syncs changes as they occur
@@ -39,7 +39,7 @@ The Cirrus Sync dashboard provides a centralized view of all your sync operation
 - Complete control over sync timing
 - Ideal for sensitive data
 
-### Sync Filters
+### Sync filters
 
 Configure which files to include or exclude:
 
@@ -59,9 +59,9 @@ Exclude: *.tmp, *.cache, *.log
 - Created before: specific date
 - Age-based rules
 
-## File Management
+## File management
 
-### File Versioning
+### File versioning
 
 Cirrus Sync maintains version history for all synced files:
 
@@ -70,7 +70,7 @@ Cirrus Sync maintains version history for all synced files:
 - **Version comparison** - View differences between versions
 - **Restore options** - Rollback to any previous version
 
-### Conflict Resolution
+### Conflict resolution
 
 When file conflicts occur, Cirrus Sync offers several resolution strategies:
 
@@ -85,7 +85,7 @@ When file conflicts occur, Cirrus Sync offers several resolution strategies:
 - Choose resolution for each conflict
 - Apply rules for future conflicts
 
-### Offline Access
+### Offline access
 
 Configure offline availability for important files:
 
@@ -94,7 +94,7 @@ Configure offline availability for important files:
 3. Choose sync priority (High/Normal/Low)
 4. Files download automatically when connected
 
-## Security Features
+## Security features
 
 ### Encryption
 
@@ -108,7 +108,7 @@ Configure offline availability for important files:
 - Optional client-side encryption
 - Key management integration
 
-### Access Controls
+### Access controls
 
 **Two-Factor Authentication**
 - TOTP support (Google Authenticator, Authy)
@@ -120,9 +120,9 @@ Configure offline availability for important files:
 - Remote device deauthorization
 - Device-specific access controls
 
-## Sharing and Collaboration
+## Sharing and collaboration
 
-### Share Links
+### Share links
 
 Create secure links to share files with others:
 
@@ -136,7 +136,7 @@ Create secure links to share files with others:
 4. Set expiration date
 5. Copy and share the link
 
-### Team Folders
+### Team folders
 
 Collaborate with team members using shared folders:
 
@@ -145,9 +145,9 @@ Collaborate with team members using shared folders:
 - **Activity tracking** - See who changed what and when
 - **Notification settings** - Email alerts for changes
 
-## Performance Optimization
+## Performance optimization
 
-### Bandwidth Management
+### Bandwidth management
 
 Control how Cirrus Sync uses your internet connection:
 
@@ -161,7 +161,7 @@ Control how Cirrus Sync uses your internet connection:
 - Priority downloads for recently accessed files
 - Background download throttling
 
-### Storage Optimization
+### Storage optimization
 
 **Smart Sync**
 - Keep frequently accessed files local
@@ -173,23 +173,23 @@ Control how Cirrus Sync uses your internet connection:
 - Cache cleanup policies
 - Manual cache clearing options
 
-## Mobile Apps
+## Mobile apps
 
 Cirrus Sync offers native mobile applications:
 
-### iOS App Features
+### iOS app features
 - Full file access and editing
 - Camera upload automation
 - Touch ID/Face ID authentication
 - Offline file access
 
-### Android App Features
+### Android app features
 - Intent integration with other apps
 - Fingerprint authentication
 - Background sync optimization
 - SD card support
 
-## Browser Extension
+## Browser extension
 
 The Cirrus Sync browser extension provides:
 
@@ -198,7 +198,7 @@ The Cirrus Sync browser extension provides:
 - Web page archiving
 - Password-protected downloads
 
-## Keyboard Shortcuts
+## Keyboard shortcuts
 
 **Windows/Linux**
 - `Ctrl + N` - New sync folder

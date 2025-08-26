@@ -4,7 +4,7 @@ Version history and release notes for Cirrus Sync.
 
 ## Version 3.2.1 (January 15, 2025)
 
-### Bug Fixes
+### Bug fixes
 - Fixed crash when syncing files with Unicode characters in filenames
 - Resolved memory leak in real-time file monitoring
 - Fixed OAuth token refresh for Google Drive Business accounts
@@ -56,14 +56,14 @@ Version history and release notes for Cirrus Sync.
 
 ## Version 3.1.3 (November 2, 2024)
 
-### Bug Fixes
+### Bug fixes
 - Fixed issue where paused syncs would resume unexpectedly.
 - Resolved database corruption on unexpected application shutdown.
 - Fixed proxy authentication with special characters in passwords.
 - Corrected file permission preservation on Linux systems.
 - Fixed notification display on Windows 11.
 
-### Cloud Provider Fixes
+### Cloud provider fixes
 - OneDrive: Fixed sync issues with files in recycle bin.
 - Google Drive: Resolved shared folder permission problems.
 - Dropbox: Fixed handling of case-sensitive file names.
@@ -73,13 +73,13 @@ Version history and release notes for Cirrus Sync.
 
 ## Version 3.1.2 (October 15, 2024)
 
-### Security Updates
+### Security updates
 - Patched potential security vulnerability in file transfer protocol.
 - Updated encryption libraries to latest versions.
 - Enhanced input validation for configuration files.
 - Improved secure deletion of temporary files.
 
-### Bug Fixes
+### Bug fixes
 - Fixed crash when importing large configuration files.
 - Resolved issue with special characters in folder paths.
 - Fixed bandwidth throttling not working correctly.
@@ -89,7 +89,7 @@ Version history and release notes for Cirrus Sync.
 
 ## Version 3.1.1 (September 28, 2024)
 
-### Bug Fixes
+### Bug fixes
 - Fixed installation issues on macOS Ventura
 - Resolved sync conflicts not showing in notifications
 - Fixed memory usage growth during long sync sessions
@@ -106,28 +106,28 @@ Version history and release notes for Cirrus Sync.
 
 ## Version 3.1.0 (September 1, 2024)
 
-### Major Features
+### Major features
 - **Collaborative Workspaces** - Share and collaborate on project folders
 - **Version History** - Access and restore previous file versions
 - **Advanced Scheduling** - Granular control over sync timing
 - **Mobile Companion Apps** - iOS and Android apps for file access
 - **Browser Extension** - Save web content directly to sync folders
 
-### Enterprise Features
+### Enterprise features
 - Single Sign-On (SSO) integration with SAML 2.0
 - Advanced audit logging and compliance reporting
 - Group policy support for Windows domains
 - Centralized license management
 - Priority technical support with SLA
 
-### API Enhancements
+### API enhancements
 - RESTful API v2 with improved endpoints
 - Webhook support for real-time notifications
 - SDK libraries for popular programming languages
 - GraphQL interface for advanced queries
 - Rate limiting and usage analytics
 
-### User Interface
+### User interface
 - Completely redesigned interface with modern design
 - Customizable dashboard with drag-and-drop widgets
 - Advanced search and filtering capabilities
@@ -138,13 +138,13 @@ Version history and release notes for Cirrus Sync.
 
 ## Version 3.0.2 (July 20, 2024)
 
-### Critical Fixes
-- Fixed data loss issue when syncing very large files (>10GB)
+### Critical fixes
+- Fixed data loss issue when syncing very large files (>10 GB)
 - Resolved authentication token expiration causing sync failures
 - Fixed potential race condition in concurrent file operations
 - Corrected file checksum verification for interrupted transfers
 
-### Stability Improvements
+### Stability improvements
 - Enhanced error recovery mechanisms
 - Improved handling of network timeouts
 - Better management of temporary files
@@ -154,7 +154,7 @@ Version history and release notes for Cirrus Sync.
 
 ## Version 3.0.1 (June 15, 2024)
 
-### Bug Fixes
+### Bug fixes
 - Fixed compatibility issues with Windows 11 22H2
 - Resolved sync failures for files with long paths
 - Fixed UI rendering issues on high-DPI displays
@@ -171,26 +171,26 @@ Version history and release notes for Cirrus Sync.
 
 ## Version 3.0.0 (May 1, 2024)
 
-### Revolutionary Features
+### Revolutionary features
 - **Real-Time Collaboration** - Multiple users can edit files simultaneously
 - **AI-Powered Conflict Resolution** - Automatic resolution of common conflicts
 - **Cross-Platform Sync** - Seamless synchronization across Windows, macOS, and Linux
 - **Advanced Security** - End-to-end encryption with zero-knowledge architecture
 - **Smart Bandwidth Management** - Adaptive throttling based on network conditions
 
-### Breaking Changes
+### Breaking changes
 - Configuration file format updated (automatic migration provided)
 - Minimum system requirements increased
 - API v1 deprecated (will be removed in version 4.0)
 - Legacy sync protocols no longer supported
 
-### Cloud Provider Support
+### Cloud provider support
 - Added support for Box, pCloud, and MEGA
 - Enhanced Google Workspace integration
 - Improved Microsoft 365 compatibility
 - Added Amazon S3 support for enterprise users
 
-### Developer Tools
+### Developer tools
 - Comprehensive REST API for third-party integrations
 - Plugin architecture for custom extensions
 - Command-line interface for automation
@@ -198,21 +198,21 @@ Version history and release notes for Cirrus Sync.
 
 ---
 
-## Earlier Versions
+## Earlier versions
 
-### Version 2.5.x Series (2023)
+### Version 2.5.x series (2023)
 - Introduced Smart Sync technology
 - Added support for Apple Silicon Macs
 - Enhanced security with two-factor authentication
 - Improved conflict resolution algorithms
 
-### Version 2.0.x Series (2022)
+### Version 2.0.x series (2022)
 - Major UI overhaul with modern design
 - Added support for OneDrive and iCloud
 - Introduced team collaboration features
 - Enhanced performance and reliability
 
-### Version 1.x Series (2021)
+### Version 1.x series (2021)
 - Initial release with Google Drive and Dropbox support
 - Basic file synchronization functionality
 - Cross-platform compatibility
@@ -220,15 +220,15 @@ Version history and release notes for Cirrus Sync.
 
 ---
 
-## Upcoming Features
+## Upcoming features
 
-### Version 3.3.0 (Planned Q2 2025)
+### Version 3.3.0 (planned Q2 2025)
 - **AI File Organization** - Automatic file categorization and organization
 - **Advanced Analytics** - Detailed sync statistics and insights
 - **Enhanced Mobile Apps** - Offline editing and improved performance
 - **Backup Integration** - Direct integration with popular backup services
 
-### Version 4.0.0 (Planned Q4 2025)
+### Version 4.0.0 (planned Q4 2025)
 - **Next-Generation Sync Engine** - Complete rewrite for maximum performance
 - **Quantum-Safe Encryption** - Future-proof security implementation
 - **Unified Cloud Storage** - Combine multiple providers into single virtual drive

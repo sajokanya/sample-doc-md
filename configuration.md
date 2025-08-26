@@ -1,8 +1,7 @@
-# Configuration
 
 Advanced configuration options for Cirrus Sync.
 
-## Configuration Files
+## Configuration files
 
 Cirrus Sync stores configuration in the following locations:
 
@@ -21,9 +20,9 @@ Cirrus Sync stores configuration in the following locations:
 ~/.config/cirrussync/config.json
 ```
 
-## General Settings
+## General settings
 
-### Application Behavior
+### Application behavior
 
 ```json
 {
@@ -38,13 +37,8 @@ Cirrus Sync stores configuration in the following locations:
 ```
 
 **Options:**
-- `autoStart` - Launch Cirrus Sync on system startup
-- `minimizeToTray` - Minimize to system tray instead of taskbar
-- `showNotifications` - Display desktop notifications for sync events
-- `checkUpdatesAutomatically` - Check for application updates automatically
-- `updateChannel` - Update channel: `stable`, `beta`, or `dev`
 
-### User Interface
+### User interface
 
 ```json
 {
@@ -58,21 +52,12 @@ Cirrus Sync stores configuration in the following locations:
 ```
 
 **Theme Options:**
-- `auto` - Follow system theme
-- `light` - Light theme
-- `dark` - Dark theme
 
 **Language Options:**
-- `en` - English
-- `es` - Spanish
-- `fr` - French
-- `de` - German
-- `ja` - Japanese
-- `zh` - Chinese
 
-## Sync Configuration
+## Sync configuration
 
-### Default Sync Settings
+### Default sync settings
 
 ```json
 {
@@ -89,18 +74,10 @@ Cirrus Sync stores configuration in the following locations:
 ```
 
 **Sync Types:**
-- `bidirectional` - Two-way synchronization
-- `upload` - Local to cloud only
-- `download` - Cloud to local only
 
 **Conflict Resolution:**
-- `manual` - Prompt user for each conflict
-- `newestWins` - Newest file overwrites older
-- `largestWins` - Largest file overwrites smaller
-- `localWins` - Local file always wins
-- `remoteWins` - Remote file always wins
 
-### Performance Tuning
+### Performance tuning
 
 ```json
 {
@@ -116,16 +93,10 @@ Cirrus Sync stores configuration in the following locations:
 ```
 
 **Parameters:**
-- `maxConcurrentTransfers` - Maximum simultaneous file transfers
-- `chunkSize` - Transfer chunk size in bytes (8MB default)
-- `connectionTimeout` - Connection timeout in milliseconds
-- `readTimeout` - Read timeout in milliseconds
-- `maxRetries` - Maximum retry attempts for failed transfers
-- `useCompression` - Enable data compression during transfer
 
-## Network Configuration
+## Network configuration
 
-### Bandwidth Controls
+### Bandwidth controls
 
 ```json
 {
@@ -148,17 +119,10 @@ Cirrus Sync stores configuration in the following locations:
 ```
 
 **Bandwidth Limits:**
-- `0` - Unlimited
-- `1048576` - 1 MB/s
-- `5242880` - 5 MB/s
 
 **Proxy Types:**
-- `http` - HTTP proxy
-- `https` - HTTPS proxy
-- `socks4` - SOCKS4 proxy
-- `socks5` - SOCKS5 proxy
 
-### SSL/TLS Configuration
+### SSL/TLS configuration
 
 ```json
 {
@@ -172,9 +136,9 @@ Cirrus Sync stores configuration in the following locations:
 }
 ```
 
-## Security Settings
+## Security settings
 
-### Encryption Configuration
+### Encryption configuration
 
 ```json
 {
@@ -189,11 +153,8 @@ Cirrus Sync stores configuration in the following locations:
 ```
 
 **Encryption Algorithms:**
-- `AES-256-GCM` - Advanced Encryption Standard (recommended)
-- `ChaCha20-Poly1305` - ChaCha20 stream cipher
-- `AES-256-CBC` - AES in CBC mode (legacy)
 
-### Authentication Settings
+### Authentication settings
 
 ```json
 {
@@ -209,9 +170,9 @@ Cirrus Sync stores configuration in the following locations:
 }
 ```
 
-## Logging Configuration
+## Logging configuration
 
-### Log Levels and Output
+### Log levels and output
 
 ```json
 {
@@ -233,13 +194,8 @@ Cirrus Sync stores configuration in the following locations:
 ```
 
 **Log Levels:**
-- `debug` - Detailed debugging information
-- `info` - General information messages
-- `warn` - Warning messages
-- `error` - Error messages only
-- `off` - Disable logging
 
-### Advanced Logging
+### Advanced logging
 
 ```json
 {
@@ -253,9 +209,9 @@ Cirrus Sync stores configuration in the following locations:
 }
 ```
 
-## Provider-Specific Settings
+## Provider-specific settings
 
-### Google Drive Configuration
+### Google Drive configuration
 
 ```json
 {
@@ -271,7 +227,7 @@ Cirrus Sync stores configuration in the following locations:
 }
 ```
 
-### Dropbox Configuration
+### Dropbox configuration
 
 ```json
 {
@@ -286,7 +242,7 @@ Cirrus Sync stores configuration in the following locations:
 }
 ```
 
-### OneDrive Configuration
+### OneDrive configuration
 
 ```json
 {
@@ -301,7 +257,7 @@ Cirrus Sync stores configuration in the following locations:
 }
 ```
 
-## Backup and Recovery
+## Backup and recovery
 
 ### Configuration Backup
 
@@ -366,10 +322,3 @@ cirrus-sync --config-file /path/to/config.json \
 ```
 
 **Available Arguments:**
-- `--config-file` - Path to configuration file
-- `--log-level` - Override log level
-- `--no-auto-start` - Disable auto-start
-- `--headless` - Run without GUI
-- `--proxy` - Set proxy URL
-- `--upload-limit` - Set upload bandwidth limit
-- `--download-limit` - Set download bandwidth limit

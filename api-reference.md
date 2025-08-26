@@ -1,10 +1,9 @@
-# API Reference
 
 Cirrus Sync provides a comprehensive REST API for developers to integrate cloud synchronization capabilities into their applications.
 
 ## Authentication
 
-### API Keys
+### API keys
 
 All API requests require authentication using API keys:
 
@@ -13,21 +12,18 @@ GET /api/v1/sync/status
 Authorization: Bearer YOUR_API_KEY
 ```
 
-### Obtaining API Keys
+### Obtaining API keys
 
 1. Log in to your Cirrus Sync account
 2. Navigate to Settings > Developer
 3. Click "Generate New API Key"
 4. Copy and securely store your key
 
-### Rate Limiting
+### Rate limiting
 
 API requests are limited to:
-- 1000 requests per hour for free accounts
-- 10000 requests per hour for premium accounts
-- 100000 requests per hour for enterprise accounts
 
-## Base URL
+## Base url
 
 ```
 https://api.cirrus-sync.com/v1
@@ -35,9 +31,9 @@ https://api.cirrus-sync.com/v1
 
 ## Endpoints
 
-### Sync Management
+### Sync management
 
-#### List All Syncs
+#### List all syncs
 
 ```http
 GET /api/v1/syncs
@@ -62,7 +58,7 @@ GET /api/v1/syncs
 }
 ```
 
-#### Create New Sync
+#### Create new sync
 
 ```http
 POST /api/v1/syncs
@@ -92,7 +88,7 @@ POST /api/v1/syncs
 }
 ```
 
-#### Get Sync Details
+#### Get sync details
 
 ```http
 GET /api/v1/syncs/{sync_id}
@@ -115,7 +111,7 @@ GET /api/v1/syncs/{sync_id}
 }
 ```
 
-#### Update Sync Configuration
+#### Update sync configuration
 
 ```http
 PUT /api/v1/syncs/{sync_id}
@@ -133,7 +129,7 @@ PUT /api/v1/syncs/{sync_id}
 }
 ```
 
-#### Delete Sync
+#### Delete sync
 
 ```http
 DELETE /api/v1/syncs/{sync_id}
@@ -147,36 +143,33 @@ DELETE /api/v1/syncs/{sync_id}
 }
 ```
 
-#### Start Manual Sync
+#### Start manual sync
 
 ```http
 POST /api/v1/syncs/{sync_id}/start
 ```
 
-#### Pause Sync
+#### Pause sync
 
 ```http
 POST /api/v1/syncs/{sync_id}/pause
 ```
 
-#### Resume Sync
+#### Resume sync
 
 ```http
 POST /api/v1/syncs/{sync_id}/resume
 ```
 
-### File Operations
+### File operations
 
-#### List Files in Sync
+#### List files in sync
 
 ```http
 GET /api/v1/syncs/{sync_id}/files
 ```
 
 **Query Parameters:**
-- `path` (optional) - Filter by path
-- `limit` (optional) - Number of results (default: 100)
-- `offset` (optional) - Pagination offset
 
 **Response:**
 ```json
@@ -196,21 +189,21 @@ GET /api/v1/syncs/{sync_id}/files
 }
 ```
 
-#### Get File Details
+#### Get file details
 
 ```http
 GET /api/v1/files/{file_id}
 ```
 
-#### Force File Sync
+#### Force file sync
 
 ```http
 POST /api/v1/files/{file_id}/sync
 ```
 
-### Provider Management
+### Provider management
 
-#### List Connected Providers
+#### List connected providers
 
 ```http
 GET /api/v1/providers
@@ -233,7 +226,7 @@ GET /api/v1/providers
 }
 ```
 
-#### Connect New Provider
+#### Connect new provider
 
 ```http
 POST /api/v1/providers
@@ -247,7 +240,7 @@ POST /api/v1/providers
 }
 ```
 
-#### Disconnect Provider
+#### Disconnect provider
 
 ```http
 DELETE /api/v1/providers/{provider_id}
@@ -255,13 +248,13 @@ DELETE /api/v1/providers/{provider_id}
 
 ### Webhooks
 
-#### List Webhooks
+#### List webhooks
 
 ```http
 GET /api/v1/webhooks
 ```
 
-#### Create Webhook
+#### Create webhook
 
 ```http
 POST /api/v1/webhooks
@@ -276,18 +269,10 @@ POST /api/v1/webhooks
 }
 ```
 
-#### Webhook Events
+#### Webhook events
 
 Cirrus Sync sends webhooks for the following events:
 
-- `sync.started` - Sync operation started
-- `sync.completed` - Sync operation completed successfully
-- `sync.failed` - Sync operation failed
-- `file.added` - New file added to sync
-- `file.changed` - Existing file modified
-- `file.deleted` - File removed from sync
-- `provider.connected` - New cloud provider connected
-- `provider.disconnected` - Cloud provider disconnected
 
 **Webhook Payload Example:**
 ```json
@@ -305,7 +290,7 @@ Cirrus Sync sends webhooks for the following events:
 }
 ```
 
-## Error Codes
+## Error codes
 
 | Code | Description |
 |------|-------------|
@@ -317,7 +302,7 @@ Cirrus Sync sends webhooks for the following events:
 | 429 | Too Many Requests - Rate limit exceeded |
 | 500 | Internal Server Error - Server error |
 
-## SDKs and Libraries
+## SDKs and libraries
 
 ### JavaScript/Node.js
 
