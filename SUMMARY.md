@@ -1,10 +1,10 @@
 # Table of contents
 
-* [API Reference](README.md)
+* [Cyrrus Sync Documentation](README.md)
 * [Changelog](changelog.md)
-* [configuration](configuration.md)
-* [FAQ](faq.md)
 * [Getting started](getting-started.md)
-* [Cyrrus Sync Documentation](overview.md)
-* [Troubleshooting](troubleshooting.md)
+* [Configuration](configuration.md)
 * [User guide](user-guide.md)
+* [API Reference](<README (1).md>)
+* [Troubleshooting](troubleshooting.md)
+* [FAQ](faq.md)
