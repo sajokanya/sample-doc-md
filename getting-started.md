@@ -1,7 +1,7 @@
 # Getting started
 
-This guide will help you install and set up Cirrus Sync on 3. Authorize Cirrus Sync to access your account
-4. Choose sync folders and preferencesur device.
+This guide helps you install and set up Cirrus Sync.
+
 
 ## System requirements
 

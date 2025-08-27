@@ -1,3 +1,7 @@
+---
+title: Changelog
+---
+
 # Changelog
 
 Version history and release notes for Cirrus Sync.

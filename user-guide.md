@@ -143,7 +143,7 @@ Collaborate with team members using shared folders:
 - **Team creation** - Invite members by email
 - **Role management** - Admin, Editor, Viewer roles
 - **Activity tracking** - See who changed what and when
-- **Notification settings** - Email alerts for changes
+- **Notification settings** - email alerts for changes
 
 ## Performance optimization
 

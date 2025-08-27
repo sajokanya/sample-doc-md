@@ -130,7 +130,7 @@ chmod +x CirrusSync.AppImage
 
 ### Login problems
 
-**Problem:** Cannot log in to account
+**Problem:** Can't log in to account
 **Solutions:**
 1. Verify email and password
 2. Check internet connection
@@ -164,7 +164,7 @@ chmod +x CirrusSync.AppImage
 
 **Dropbox:**
 - Check app permissions in Dropbox settings
-- Ensure account is not suspended
+- Ensure account isn't suspended
 - Verify API quota not exceeded
 
 **OneDrive:**
