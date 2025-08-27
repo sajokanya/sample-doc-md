@@ -1,6 +1,6 @@
-----
+---
 title: Cyrrus Sync Documentation
-----
+---
 
 <table data-view="cards">
 <thead>
