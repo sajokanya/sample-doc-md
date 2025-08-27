@@ -1,6 +1,4 @@
----
-title: API reference
----
+# API Reference
 
 Cirrus Sync provides a comprehensive REST API for developers to integrate cloud synchronization capabilities into their applications.
 
