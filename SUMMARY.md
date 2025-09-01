@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Cyrrus Sync Documentation](README.md)
+* [Cirrus Sync Documentation](README.md)
 * [Changelog](changelog.md)
 * [Getting started](getting-started.md)
 * [User guide](user-guide.md)
