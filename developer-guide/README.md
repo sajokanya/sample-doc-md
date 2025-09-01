@@ -1,6 +1,5 @@
 # Developer Guide
 
-<table data-view="cards"><thead><tr><th></th></tr></thead><tbody><tr><td>API Reference</td></tr><tr><td>Configuration</td></tr><tr><td>Troubleshooting</td></tr></tbody></table>
 
 <table data-view="cards" data-full-width="false">
 <thead>
@@ -20,6 +19,7 @@
 </tr>
 <tr><td><a href="developer-guide/configuration.md"><strong>Configuration</strong></a></td>
 <td>Learn about configuring <code class="expression">space.vars.productName</code>.</td>
+<td></td>
 <td></td>
 </tr>
 <tr><td><a href="developer-guide/troubleshooting.md"><strong>Troubleshooting</strong></a></td>
