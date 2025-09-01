@@ -78,25 +78,25 @@ chmod +x CirrusSync.AppImage
 
 **Diagnostic Steps:**
 1. Check sync status in main dashboard
-2. Review sync logs: Menu > Help > View Logs
+2. Review sync logs: **Menu** > **Help** > **View Logs**
 3. Verify internet connection
 4. Check cloud provider storage quota
 5. Review file permissions on local files
 
 **Solutions:**
 1. Restart sync: Right-click sync > Restart
-2. Clear local cache: Settings > Advanced > Clear Cache
-3. Re-authenticate provider: Settings > Providers > Reconnect
-4. Check sync filters: Sync Settings > Filters
-5. Resolve pending conflicts: Conflicts tab
+2. Clear local cache: **Settings** > **Advanced** > **Clear Cache**
+3. Re-authenticate provider: **Settings** > **Providers** > **Reconnect**
+4. Check sync filters: **Sync Settings** > **Filters**
+5. Resolve pending conflicts: **Conflicts** tab
 
 ### Slow sync performance
 
 **Problem:** Sync taking too long
 **Solutions:**
-1. Adjust bandwidth limits: Settings > Network > Bandwidth
-2. Reduce concurrent transfers: Settings > Performance > Max Transfers
-3. Enable compression: Settings > Performance > Use Compression
+1. Adjust bandwidth limits: **Settings** > **Network** > **Bandwidth**
+2. Reduce concurrent transfers: **Settings** > **Performance** > **Max Transfers**
+3. Enable compression: **Settings** > **Performance** > **Use Compression**
 4. Check network latency: `ping api.cloudsync-pro.com`
 5. Close unnecessary applications using bandwidth
 
@@ -110,7 +110,7 @@ chmod +x CirrusSync.AppImage
 
 **Problem:** Multiple conflict files created
 **Resolution Process:**
-1. Open Conflicts panel from main dashboard
+1. Open **Conflicts** panel from main dashboard
 2. Review conflicted files list
 3. Choose resolution method:
    - Keep both versions (rename)
@@ -176,7 +176,7 @@ chmod +x CirrusSync.AppImage
 
 ### Connection problems
 
-**Problem:** Cannot connect to Cirrus Sync servers
+**Problem:** Can't connect to Cirrus Sync servers
 **Diagnostic Commands:**
 ```bash
 # Test connectivity
@@ -222,7 +222,7 @@ Allow outbound to provider domains:
    - Type: HTTP/HTTPS
    - Host: proxy.company.com
    - Port: 8080
-   - Authentication: If required
+   - Authentication: if required
 4. Test connection
 
 **SOCKS Proxy:**
@@ -353,7 +353,7 @@ Allow outbound to provider domains:
 2. **Community Forum** - Search existing topics
 3. **Support Ticket** - Submit detailed issue report
 4. **Live Chat** - Real-time assistance (business hours)
-5. **Email Support** - support@cloudsync-pro.com
+5. **Email Support** - support@cirrus-sync.com
 
 ### When contacting support
 
