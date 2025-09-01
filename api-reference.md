@@ -24,7 +24,7 @@ Authorization: Bearer YOUR_API_KEY
 
 API requests are limited to:
 
-## Base url
+## Base URL
 
 ```
 https://api.cirrus-sync.com/v1
@@ -376,3 +376,5 @@ func main() {
     }
 }
 ```
+
+
