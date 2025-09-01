@@ -1,4 +1,6 @@
 
+# Configuration
+
 Advanced configuration options for Cirrus Sync.
 
 ## Configuration files
@@ -259,7 +261,7 @@ Cirrus Sync stores configuration in the following locations:
 
 ## Backup and recovery
 
-### Configuration Backup
+### Configuration backup
 
 ```json
 {
@@ -273,7 +275,7 @@ Cirrus Sync stores configuration in the following locations:
 }
 ```
 
-### Database Settings
+### Database settings
 
 ```json
 {
@@ -287,7 +289,7 @@ Cirrus Sync stores configuration in the following locations:
 }
 ```
 
-## Environment Variables
+## Environment variables
 
 Cirrus Sync also supports configuration via environment variables:
 
@@ -310,7 +312,7 @@ CIRRUS_LOG_LEVEL=info
 CIRRUS_LOG_PATH=/var/log/cirrus
 ```
 
-## Command Line Arguments
+## Command line arguments
 
 Override configuration options via command line:
 
