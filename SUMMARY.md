@@ -15,5 +15,5 @@
 
 * [Developer Guide](developer-guide/README.md)
   * [API Reference](developer-guide/api-reference.md)
-  * [Configuration](developer-guide/troubleshooting.md)
-  *
+  * [Configuration](developer-guide/configuration.md)
+  * [Troubleshooting](developer-guide/troubleshooting.md)
