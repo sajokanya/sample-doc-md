@@ -1,5 +1,7 @@
 # Getting started
 
+<figure><img src=".gitbook/assets/cirrus-clouds.png" alt=""><figcaption></figcaption></figure>
+
 This guide helps you install and set up Cirrus Sync.
 
 ## System requirements
