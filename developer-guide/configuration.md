@@ -1,23 +1,27 @@
-
 # Configuration
 
 Advanced configuration options for Cirrus Sync.
+
+{% @github-files/github-code-block url="https://github.com/sajokanya/sample-doc-md/blob/main/example.js" %}
 
 ## Configuration files
 
 Cirrus Sync stores configuration in the following locations:
 
 **Windows:**
+
 ```
 %APPDATA%\CirrusSync\config.json
 ```
 
 **macOS:**
+
 ```
 ~/Library/Application Support/CirrusSync/config.json
 ```
 
 **Linux:**
+
 ```
 ~/.config/cirrussync/config.json
 ```
