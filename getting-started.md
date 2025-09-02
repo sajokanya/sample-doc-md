@@ -31,27 +31,6 @@ This guide helps you install and set up <code class="expression">space.vars.prod
 
 {% endtabs %}
 
-### Windows
-
-* Windows 10 or later (64-bit)
-* 4 GB RAM minimum (8 GB recommended)
-* 500 MB free disk space
-* Internet connection
-
-### macOS
-
-* macOS 10.15 (Catalina) or later
-* 4 GB RAM minimum (8 GB recommended)
-* 500 MB free disk space
-* Internet connection
-
-### Linux
-
-* Ubuntu 18.04+ / CentOS 7+ / Fedora 30+
-* 4 GB RAM minimum (8 GB recommended)
-* 500 MB free disk space
-* Internet connection
-
 ## Installation
 
 ### Windows installation
