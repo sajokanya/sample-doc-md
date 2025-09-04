@@ -9,11 +9,13 @@
 
 ## Users
 
-* [User guide](user-guide/user-guide.md)
+* [User guides](user-guide/user-guide.md)
+  * [User guide](user-guide/user-guide.md)
+  * [User guide 2](user-guide/user-guide-2.md)
 
 ## Developers
 
-* [Developer Guide](developer-guide/README.md)
-  * [API Reference](developer-guide/api-reference.md)
+* [Developer guides](developer-guide/README.md)
+  * [API reference](developer-guide/api-reference.md)
   * [Configuration](developer-guide/configuration.md)
   * [Troubleshooting](developer-guide/troubleshooting.md)

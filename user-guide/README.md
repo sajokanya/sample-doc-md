@@ -1,0 +1,3 @@
+# User guides
+
+<table data-view="cards" data-full-width="false"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><a href="user-guide.md"><strong>user guide</strong></a></td><td>Learn about s<code class="expression">space.vars.productName</code>'s comprehensive REST API.</td><td></td><td></td></tr><tr><td><a href="user-guide-2.md"><strong>user guide 2</strong></a></td><td>Learn about configuring <code class="expression">space.vars.productName</code>.</td><td></td><td></td></tr><tr><td></tbody></table>
