@@ -23,32 +23,6 @@ This guide helps you install and set up <code class="expression">space.vars.prod
 {% endtab %}
 
 {% tab title="Linux" %} 
-* Ubuntu 18.04+ / CentOS 7+ / Fedora 30+
-* 4 GB RAM minimum (8 GB recommended)
-* 500 MB free disk space
-* Internet connection
-{% endtab %}
-
-{% endtabs %}
-
-## Installation
-
-### Windows installation
-
-1. Download the installer from the official website
-2. Run `CirrusSync-Setup.exe` as administrator
-3. Follow the installation wizard
-4. Launch Cirrus Sync from the Start menu
-
-### macOS installation
-
-1. Download the `.dmg` file from the official website
-2. Double-click the downloaded file
-3. Drag Cirrus Sync to the Applications folder
-4. Launch from Applications or Spotlight
-
-### Linux installation
-
 #### Ubuntu/Debian
 
 ```bash
@@ -63,6 +37,37 @@ sudo apt-get install -f
 wget https://releases.cirrus-sync.com/linux/cirrus-sync.rpm
 sudo rpm -i cirrus-sync.rpm
 ```
+
+{% endtab %}
+
+{% endtabs %}
+
+## Installation
+
+{% tabs %}
+
+{% tab title="Windows" %} 
+1. Download the installer from the official website
+2. Run `CirrusSync-Setup.exe` as administrator
+3. Follow the installation wizard
+4. Launch Cirrus Sync from the Start menu
+{% endtab %}
+
+{% tab title="macOS" %} 
+1. Download the `.dmg` file from the official website
+2. Double-click the downloaded file
+3. Drag Cirrus Sync to the Applications folder
+4. Launch from Applications or Spotlight
+{% endtab %}
+
+{% tab title="Linux" %} 
+* Ubuntu 18.04+ / CentOS 7+ / Fedora 30+
+* 4 GB RAM minimum (8 GB recommended)
+* 500 MB free disk space
+* Internet connection
+{% endtab %}
+
+{% endtabs %}
 
 ## Initial setup
 
