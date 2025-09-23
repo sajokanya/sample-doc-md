@@ -6,6 +6,8 @@
 
 * [Changelog](changelog.md)
 * [Getting started](getting-started.md)
+* [Quick Setup](general/quick-setup.md)
+* [Release Notes](general/release-notes.md)
 
 ## Users
 
@@ -17,3 +19,16 @@
   * [API Reference](developer-guide/api-reference.md)
   * [Configuration](developer-guide/configuration.md)
   * [Troubleshooting](developer-guide/troubleshooting.md)
+
+***
+
+* ```yaml
+  type: builtin:openapi
+  props:
+    models: true
+  dependencies:
+    spec:
+      ref:
+        kind: openapi
+        spec: docs-test-gitbook-api
+  ```

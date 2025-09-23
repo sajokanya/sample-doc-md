@@ -7,28 +7,26 @@ This guide helps you install and set up <code class="expression">space.vars.prod
 ## System requirements
 
 {% tabs %}
-
-{% tab title="Windows" %} 
+{% tab title="Windows" %}
 * Windows 10 or later (64-bit)
-* 4 GB RAM minimum (8 GB recommended)
-* 500 MB free disk space
-* Internet connection 
-{% endtab %}
-
-{% tab title="macOS" %} 
-* macOS 10.15 (Catalina) or later
-* 4 GB RAM minimum (8 GB recommended)
-* 500 MB free disk space
-* Internet connection 
-{% endtab %}
-
-{% tab title="Linux" %} 
-* Ubuntu 18.04+ / CentOS 7+ / Fedora 30+
 * 4 GB RAM minimum (8 GB recommended)
 * 500 MB free disk space
 * Internet connection
 {% endtab %}
 
+{% tab title="macOS" %}
+* macOS 10.15 (Catalina) or later
+* 4 GB RAM minimum (8 GB recommended)
+* 500 MB free disk space
+* Internet connection
+{% endtab %}
+
+{% tab title="Linux" %}
+* Ubuntu 18.04+ / CentOS 7+ / Fedora 30+
+* 4 GB RAM minimum (8 GB recommended)
+* 500 MB free disk space
+* Internet connection
+{% endtab %}
 {% endtabs %}
 
 ## Installation
@@ -51,11 +49,11 @@ This guide helps you install and set up <code class="expression">space.vars.prod
 
 #### Ubuntu/Debian
 
-```bash
-wget https://releases.cirrus-sync.com/linux/cirrus-sync.deb
-sudo dpkg -i cirrus-sync.deb
-sudo apt-get install -f
-```
+{% include ".gitbook/includes/wget-https-releases.cirru....md" %}
+
+
+
+{% include ".gitbook/includes/wget-https-releases.cirru....md" %}
 
 #### CentOS/RHEL/Fedora
 
@@ -106,7 +104,7 @@ To connect a provider:
 ## Next steps
 
 * Read the [User Guide](user-guide.md) for detailed features
-* Configure advanced settings in [Configuration](broken-reference)
+* Configure advanced settings in [Configuration](broken-reference/)
 * Check out [FAQ](faq.md) for common questions
 
 ## Troubleshooting installation
