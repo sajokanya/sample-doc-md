@@ -1,0 +1,70 @@
+name: Sync Docs from Source Repository
+
+on:
+  schedule:
+    # Run every hour to check for updates
+    - cron: '0 * * * *'
+  workflow_dispatch:
+    # Allow manual triggering
+  repository_dispatch:
+    # Allow triggering from external events
+    types: [sync-docs]
+
+jobs:
+  sync-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout target repo (sample-doc-mdx)
+        uses: actions/checkout@v4
+        with:
+          repository: sajokanya/sample-doc-mdx
+          token: ${{ secrets.DOCS_REPO_TOKEN }}
+          path: target-repo
+
+      - name: Checkout source repo (sample-doc-md)
+        uses: actions/checkout@v4
+        with:
+          repository: sajokanya/sample-doc-md
+          token: ${{ secrets.DOCS_REPO_TOKEN }}
+          path: source-repo
+
+      - name: Sync documentation
+        run: |
+          cd target-repo
+          
+          # Create target directories if they don't exist
+          mkdir -p docs/snippets
+          mkdir -p docs/product-b
+          
+          # Remove old content in target folders
+          rm -rf docs/snippets/*
+          rm -rf docs/product-b/*
+          
+          # Check if source directories exist and copy content
+          if [ -d "../source-repo/sample-doc/docs/snippets" ]; then
+            cp -r ../source-repo/sample-doc/docs/snippets/* docs/snippets/
+            echo "Synced snippets folder"
+          else
+            echo "Source snippets folder not found"
+          fi
+          
+          if [ -d "../source-repo/sample-doc/docs/product-b" ]; then
+            cp -r ../source-repo/sample-doc/docs/product-b/* docs/product-b/
+            echo "Synced product-b folder"
+          else
+            echo "Source product-b folder not found"
+          fi
+          
+          # Configure git
+          git config user.name "Docs Sync Bot"
+          git config user.email "docs-sync-bot@github.com"
+          
+          # Check if there are any changes
+          if [ -n "$(git status --porcelain)" ]; then
+            git add docs/snippets docs/product-b
+            git commit -m "Sync docs from sajokanya/sample-doc-md ($(date -u '+%Y-%m-%d %H:%M:%S UTC'))"
+            git push
+            echo "Documentation synced successfully"
+          else
+            echo "No changes detected, skipping commit"
+          fi
