@@ -33,16 +33,16 @@ jobs:
           cd target-repo
           
           # Create target directories if they don't exist
-          mkdir -p docs/snippets
-          mkdir -p docs/product-b
+          mkdir -p snippets
+          mkdir -p product-b
           
           # Remove old content in target folders
-          rm -rf docs/snippets/*
-          rm -rf docs/product-b/*
+          rm -rf snippets/*
+          rm -rf product-b/*
           
           # Check if source directories exist and copy content
-          if [ -d "../source-repo/sample-doc/docs/snippets" ]; then
-            cp -r ../source-repo/sample-doc/docs/snippets/* docs/snippets/
+          if [ -d "../source-repo/sample-doc-md/docs/snippets" ]; then
+            cp -r ../source-repo/sample-doc-md/docs/snippets/* docs/snippets/
             echo "Synced snippets folder"
           else
             echo "Source snippets folder not found"
