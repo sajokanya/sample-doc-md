@@ -1,0 +1,31 @@
+**Python integration**: Use the Python client library for programmatic analysis creation and data manipulation.
+
+```python
+import productb_client
+
+# Connect to your workspace
+client = productb_client.Client(api_key="your-api-key")
+workspace = client.get_workspace("your-workspace-id")
+
+# Create a new analysis
+analysis = workspace.create_analysis(
+    name="Customer Segmentation",
+    data_source="customer_database"
+)
+
+# Add filters and groupings
+analysis.add_filter("signup_date", ">=", "2024-01-01")
+analysis.group_by("customer_segment")
+analysis.aggregate("revenue", "sum")
+
+# Generate visualization
+chart = analysis.create_chart(
+    type="bar",
+    x_axis="customer_segment",
+    y_axis="revenue_sum"
+)
+
+# Save and share
+analysis.save()
+analysis.share_with_team()
+```

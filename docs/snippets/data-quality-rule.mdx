@@ -1,0 +1,9 @@
+```sql
+-- Example quality rule for sales data
+SELECT 
+  COUNT(*) as failed_records
+FROM sales_table 
+WHERE sale_amount < 0 
+   OR customer_id IS NULL 
+   OR sale_date > CURRENT_DATE;
+```

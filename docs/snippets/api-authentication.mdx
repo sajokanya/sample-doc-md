@@ -1,0 +1,13 @@
+```python
+import productb_client
+
+# Initialize client with your API key
+client = productb_client.Client(
+    api_key="your-api-key",
+    base_url="https://your-org.productb.com"
+)
+
+# Verify connection
+status = client.health_check()
+print(f"Connection status: {status}")
+```
