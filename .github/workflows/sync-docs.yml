@@ -42,14 +42,14 @@ jobs:
           
           # Check if source directories exist and copy content
           if [ -d "../source-repo/sample-doc-md/docs/snippets" ]; then
-            cp -r ../source-repo/sample-doc-md/docs/snippets/* docs/snippets/
+            cp -r ../source-repo/sample-doc-md/docs/snippets/* snippets/
             echo "Synced snippets folder"
           else
             echo "Source snippets folder not found"
           fi
           
           if [ -d "../source-repo/sample-doc/docs/product-b" ]; then
-            cp -r ../source-repo/sample-doc/docs/product-b/* docs/product-b/
+            cp -r ../source-repo/sample-doc/docs/product-b/* product-b/
             echo "Synced product-b folder"
           else
             echo "Source product-b folder not found"
@@ -61,7 +61,7 @@ jobs:
           
           # Check if there are any changes
           if [ -n "$(git status --porcelain)" ]; then
-            git add docs/snippets docs/product-b
+            git add snippets product-b
             git commit -m "Sync docs from sajokanya/sample-doc-md ($(date -u '+%Y-%m-%d %H:%M:%S UTC'))"
             git push
             echo "Documentation synced successfully"
