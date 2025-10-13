@@ -6,6 +6,25 @@ title: Changelog
 
 Version history and release notes for Cirrus Sync.
 
+<!-- placeholders to be filled in -->
+
+## Version-3.2.2 (October 13, 2025)
+
+### Bug fixes
+- Fix 1
+- Fix 2
+- Fix 3
+
+### Improvements
+- Improvement 1
+- Improvement 2
+- Improvement 3
+
+### Security
+- Security update 1
+- Security update 2
+- Security update 3
+
 ## Version 3.2.1 (January 15, 2025)
 
 ### Bug fixes
