@@ -6,6 +6,8 @@ This guide helps you install and set up <code class="expression">space.vars.prod
 
 Just adding this line to test submodule workflow.
 
+Adding this other line to test committing stuff from the submodule.
+
 ## System requirements
 
 {% tabs %}
