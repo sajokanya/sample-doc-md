@@ -1,0 +1,60 @@
+name: Sync Developer Guide to MDX Repository
+
+on:
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - 'developer-guide/**'
+  workflow_dispatch:
+    # Allow manual triggering
+
+jobs:
+  sync-developer-guide:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source repo (sample-doc)
+        uses: actions/checkout@v4
+        with:
+          path: source-repo
+
+      - name: Checkout target repo (sample-doc-mdx)
+        uses: actions/checkout@v4
+        with:
+          repository: sajokanya/sample-doc-mdx
+          token: ${{ secrets.DOCS_REPO_TOKEN }}
+          path: target-repo
+
+      - name: Sync developer-guide to product-b
+        run: |
+          cd target-repo
+          
+          # Create target directory if it doesn't exist
+          mkdir -p product-b
+          
+          # Remove old content in product-b folder
+          rm -rf product-b/*
+          
+          # Check if source developer-guide directory exists
+          if [ -d "../source-repo/developer-guide" ]; then
+            cp -r ../source-repo/developer-guide/* product-b/
+            echo "Synced developer-guide folder to product-b"
+          else
+            echo "Source developer-guide folder not found"
+            exit 1
+          fi
+          
+          # Configure git
+          git config user.name "Developer Guide Sync Bot"
+          git config user.email "dev-guide-sync@github.com"
+          
+          # Check if there are any changes
+          if [ -n "$(git status --porcelain)" ]; then
+            git add product-b
+            git commit -m "Sync developer-guide from sajokanya/sample-doc ($(date -u '+%Y-%m-%d %H:%M:%S UTC'))"
+            git push
+            echo "Developer guide synced successfully to product-b folder"
+          else
+            echo "No changes detected, skipping commit"
+          fi
